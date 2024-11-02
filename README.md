@@ -18,4 +18,6 @@ Simple in app menus to Add, Edit and Delete with a quick search capability
 # License
 This project is licensed under 
 
-![Preview of the Home Page](http://..images/ComicWishList-Mockup.jpg)
+#Home Page Mockup
+![alt text](https://github.com/wein-uno/comicwishlist/images/ComicWishList-Mockup.jpg "Home Page Mockup")
+
