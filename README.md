@@ -16,8 +16,14 @@ docker-compose up
 Simple in app menus to Add, Edit and Delete with a quick search capability
 
 # License
-This project is licensed under 
+This project is licensed under [MIT License](../blob/master/LICENSE)
 
-#Home Page Mockup
-![alt text](https://github.com/wein-uno/comicwishlist/images/CErikWeinmeisterC4-ComicApp.png "Home Page Mockup")
 
+# Home Page Mockup
+![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ComicWishList-Mockup.jpg "Home Page Mockup")
+
+# C4 Diagram
+![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ErikWeinmeisterC4-ComicApp.jpg "C4 Diagram")
+
+# Use Case
+![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/Comic%20App%20Use-Misuse%20Case-Page-1.jpg "Use/Misuse Case")
