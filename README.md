@@ -16,7 +16,7 @@ docker-compose up
 Simple in app menus to Add, Edit and Delete with a quick search capability
 
 # License
-This project is licensed under [MIT License](../blob/master/LICENSE)
+This project is licensed under [MIT License](./License)
 
 
 # Home Page Mockup
