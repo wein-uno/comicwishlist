@@ -36,6 +36,6 @@ Malicious actors and kids can have the same effect of deleting all the data. Pri
 ## Mitigation Criteria
 Deletion will require confirmation to assist in mis-clicks.  This app will perform periodic copies of the data to ensure against accidental deletion and malicious deletion of data.  Price fields will display in dollar and cent format with checks to only allow numbers.  Grades will have predefined drop down selection list to abide by standard comic grades, this will have a tip on each grade to match the old grading word scores.
 
-[![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ComicWishList-Mockup.jpg "Use Case")
+![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/Comic%20App%20Use-Misuse%20Case-Page-1.jpg "Use Case")
 
 
