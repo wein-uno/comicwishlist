@@ -18,7 +18,6 @@ Simple in app menus to Add, Edit and Delete with a quick search capability
 # License
 This project is licensed under [MIT License](./License)
 
-
 # Home Page Mockup
 ![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ComicWishList-Mockup.jpg "Home Page Mockup")
 
@@ -26,4 +25,17 @@ This project is licensed under [MIT License](./License)
 ![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ErikWeinmeisterC4-ComicApp.jpg "C4 Diagram")
 
 # Use Case
-![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/Comic%20App%20Use-Misuse%20Case-Page-1.jpg "Use/Misuse Case")
+As a serious comic book collector, I want to have a list of my most wanted comics with with 3 price comparison for 3 different grades so I can determine a reasonable price to pay while hunting for these comic books.
+
+## Acceptance criteria
+For each comic, I need the title, comic id number and fields for three different grades with three prices under each grade.  I should be able to add new entries, edit existing entries and delete an entry.  The list will be displayed in alphabetical order.  After each price there will be a calculation which is the price divided by the grade to determine a price/point.
+
+## Mis-user stories
+Malicious actors and kids can have the same effect of deleting all the data. Price fields will display in dollar and cent format with checks to only allow numbers.  Ruin my day Ryan could cause the application to crash by putting in wrong data, like text in a number field.  Newbie Neuman may not know what the new grades are compared to what his grandpa wrote down, a guess of an 8.7 will lead to inaccurate results and bad buying decisions.
+
+## Mitigation Criteria
+Deletion will require confirmation to assist in mis-clicks.  This app will perform periodic copies of the data to ensure against accidental deletion and malicious deletion of data.  Price fields will display in dollar and cent format with checks to only allow numbers.  Grades will have predefined drop down selection list to abide by standard comic grades, this will have a tip on each grade to match the old grading word scores.
+
+[![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ComicWishList-Mockup.jpg "Use Case")
+
+
