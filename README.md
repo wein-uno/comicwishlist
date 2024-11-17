@@ -22,10 +22,10 @@ This project is licensed under [MIT License](./License)
 ![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ComicWishList-Mockup.jpg "Home Page Mockup")
 
 # C4 Diagram
-![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ErikWeinmeisterC4-ComicAppContext.png "C4 Context Diagram")
-![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ErikWeinmeisterC4-ComicAppContainer.png "C4 Container Diagram")
-![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ErikWeinmeisterC4-ComicAppComponentHome.png "C4 Diagram Home Container")
-![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ErikWeinmeisterC4-ComicAppComponentNew.png "C4 Diagram New Container")
+![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ErikWeinmeisterC4-ComicAppContext.drawio.png "C4 Context Diagram")
+![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ErikWeinmeisterC4-ComicAppContainer.drawio.png "C4 Container Diagram")
+![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ErikWeinmeisterC4-ComicAppComponentHome.drawio.png "C4 Diagram Home Container")
+![alt text](https://github.com/wein-uno/comicwishlist/blob/main/images/ErikWeinmeisterC4-ComicAppComponentNew.drawio.png "C4 Diagram New Container")
 
 # Use Case
 As a serious comic book collector, I want to have a list of my most wanted comics with with 3 price comparison for a grade so I can determine a reasonable price to pay while hunting for these comic books.
