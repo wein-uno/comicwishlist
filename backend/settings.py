@@ -72,13 +72,18 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
+#switch the database to mysql
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'comicbookdb',
+        'USER': 'erik',
+        'PASSWORD': 'Test12ing', #this isn't good, but let's get it working
+        'HOST': 'localhost',  #found localhost is a lot more powerfull than hostname for local install, IPv6 seemed to be an issue
+        'PORT': '3306',  #so this gave me conflicts with the non-docker mysql ughhhh
     }
 }
+
 
 
 # Password validation
