@@ -11,18 +11,15 @@ Class-based views
     1. Add an import:  from other_app.views import Home
     2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
 Including another URLconf
-    1. Import the include() function: from django.urls import include, path
+    1. Import the include() function: from django.urls import include, p
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+#edited the wrong file
 from django.contrib import admin
-from django.urls import path, include # don't leave the include off here or it gets angry.
-from rest_framework.routers import DefaultRouter
-from .views import ComicViewSet
-
-router = DefaultRouter()
-router.register(r'comics', ComicViewSet)
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(router.urls))
+   # path('api/', include('comics.urls')),
 ]
+
