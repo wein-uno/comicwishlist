@@ -76,8 +76,8 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'comicbookdb',
-        'USER': 'erik',
+        'NAME': 'comic_db',
+        'USER': 'comicusers',
         'PASSWORD': 'Test12ing', #this isn't good, but let's get it working
         'HOST': 'localhost',  #found localhost is a lot more powerfull than hostname for local install, IPv6 seemed to be an issue
         'PORT': '3306',  #so this gave me conflicts with the non-docker mysql ughhhh

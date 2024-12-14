@@ -1,0 +1,8 @@
+Django>=4.0,<5.0
+djangorestframework
+Pillow
+# so why don't I need this in the frontend OR do I 12/11? NOPE needs to be in same direcotry as docker-compose.yml
+
+
+mysqlclient==2.2.6
+

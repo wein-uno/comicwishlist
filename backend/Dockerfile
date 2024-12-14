@@ -3,9 +3,10 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-COPY ./backend /app
-COPY requirements.txt /app/requirements.txt
+COPY requirements.txt /app/
 
 RUN pip install -r requirements.txt
+
+COPY ./backend /app
 
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
